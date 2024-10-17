@@ -1,4 +1,5 @@
 using FilmVault.Data;
+using FilmVault.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddSqlite<MovieContext>("Data Source=FilmVault.db");
+
+builder.Services.AddScoped<MovieService>();
 
 var app = builder.Build();
 
