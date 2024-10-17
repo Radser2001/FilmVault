@@ -81,8 +81,8 @@ The primary goal of this project is to enhance my skills in .NET development, pa
 
 
 ## Future Enhancements
-- Add Genre Management
-- Add Director Management
+- Add Genre Management.
+- Add Director Management.
 - Add user authentication and authorization.
 - Implement search and filtering for movies.
 - Add more advanced features like movie reviews and ratings.
