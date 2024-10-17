@@ -22,4 +22,6 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+app.MapGet("/", () => @"FilmVault Movie management API. Navigate to /swagger to open the Swagger test UI.");
+
 app.Run();
