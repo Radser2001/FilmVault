@@ -78,6 +78,8 @@ FilmVault is a .NET API for managing a movie catalog. It provides functionalitie
 
 
 ## Future Enhancements
+- Add Genre Management
+- Add Director Management
 - Add user authentication and authorization.
 - Implement search and filtering for movies.
 - Add more advanced features like movie reviews and ratings.
