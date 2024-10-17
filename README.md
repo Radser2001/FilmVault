@@ -1,10 +1,13 @@
 # FilmVault 🎬
 FilmVault is a .NET API for managing a movie catalog. It provides functionalities for adding, retrieving, updating, and deleting movies, along with managing directors and genres. This project demonstrates skills in API development using ASP.NET Core and Entity Framework Core.
 
+## Purpose
+The primary goal of this project is to enhance my skills in .NET development, particularly in building RESTful APIs. By working on FilmVault, I aim to gain practical experience with ASP.NET Core, Entity Framework Core, and database management.
+
 ## Features
 - **Movies**: Add, retrieve, update, and delete movies.
-- **Directors**: Manage movie directors, including award-winning status.
-- **Genres**: Categorize movies with multiple genres.
+- **Directors**: Manage movie directors, including their award-winning status (CRUD operations planned for future implementation).
+- **Genres**:  Categorize movies with multiple genres (CRUD operations planned for future implementation).
 - **Database**: Uses SQLite for persistent data storage.
 - **API Endpoints**: RESTful API design for seamless client interaction.
 
